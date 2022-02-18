@@ -4,9 +4,9 @@ import "./Punklist.css";
 function PunkList({ punkListData, setSelectedPunk }) {
   return (
     <div className="punkList">
-      {punkListData.map((punk) => {
+      {punkListData.map((punk, idx) => {
         return (
-          <div onClick={() => setSelectedPunk(punk.token_id)}>
+          <div onClick={() => setSelectedPunk(idx)}>
             <CollectionCard
               key={punk.token_id}
               id={punk.token_id}
