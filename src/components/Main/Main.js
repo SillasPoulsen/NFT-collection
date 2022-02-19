@@ -35,17 +35,17 @@ function Main({ selectedPunk, punkListData }) {
                 <div className="ownerHandle">@SillasPoulsen</div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="social">
-          <div className="ownerLink">
-            <img src={instagramLogo} alt="" />
-          </div>
-          <div className="ownerLink">
-            <img src={twitterLogo} alt="" />
-          </div>
-          <div className="ownerLink">
-            <img src={moreIcon} alt="" />
+            <div className="social">
+              <div className="ownerLink">
+                <img src={instagramLogo} alt="" />
+              </div>
+              <div className="ownerLink">
+                <img src={twitterLogo} alt="" />
+              </div>
+              <div className="ownerLink">
+                <img src={moreIcon} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
 }
 
 .punkLogo {
-  width: 200px;
+  max-width: 200px;
 }
 
 .searchBar {
@@ -73,4 +73,17 @@
   padding: 15px 40px;
   border-radius: 50px;
   color: black;
+}
+
+@media only screen and (max-width: 900px) {
+  .punkLogo {
+    max-width: 100px;
+  }
+  .header {
+    flex-wrap: wrap;
+  }
+  .headerItems,
+  .headerActions {
+    display: none;
+  }
 }
